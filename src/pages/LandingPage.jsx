@@ -175,9 +175,7 @@ export default function LandingPage() {
               </Link>
             </div>
 
-            <p style={{ marginTop: 20, fontSize: 12, color: 'var(--text-muted)' }}>
-              No credit card required · Free forever plan
-            </p>
+
           </div>
 
           {/* Dashboard preview */}
@@ -216,7 +214,7 @@ export default function LandingPage() {
           <div className="section-header">
             <SectionBadge>The Solution</SectionBadge>
             <h2>Analytics that actually<br />makes you smarter</h2>
-            <p>Clairqube turns raw visitor data into decisions. In 2 minutes, not 2 days.</p>
+            <p>Clariqube turns raw visitor data into decisions. In 2 minutes, not 2 days.</p>
           </div>
 
           <div style={{
@@ -302,7 +300,7 @@ export default function LandingPage() {
                 borderRadius: 6, padding: '5px 14px',
                 fontSize: 11, color: 'var(--text-muted)', fontFamily: 'monospace', maxWidth: 300,
               }}>
-                app.clairqube.io/websites/abc123
+                app.clariqube.io/websites/abc123
               </div>
             </div>
 
@@ -504,7 +502,7 @@ export default function LandingPage() {
           <div className="footer-grid">
             <div>
               <div style={{ fontSize: 20, fontWeight: 900, letterSpacing: '-0.04em', marginBottom: 12 }}>
-                Clair<span style={{ color: 'var(--accent)' }}>qube</span>
+                Clari<span style={{ color: 'var(--accent)' }}>qube</span>
               </div>
               <p style={{ fontSize: 13.5, color: 'var(--text-secondary)', maxWidth: 260, lineHeight: 1.7 }}>
                 Privacy-first analytics for SaaS founders who want clarity, not complexity.
@@ -537,7 +535,7 @@ export default function LandingPage() {
           </div>
           <hr className="divider" style={{ marginTop: 48 }} />
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 12.5, color: 'var(--text-muted)', flexWrap: 'wrap', gap: 8 }}>
-            <span>© 2026 Clairqube Technologies Ltd. All rights reserved.</span>
+            <span>© 2026 Clariqube Technologies Ltd. All rights reserved.</span>
             <span>Made with ♥ for SaaS founders</span>
           </div>
         </div>

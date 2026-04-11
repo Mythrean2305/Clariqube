@@ -45,7 +45,7 @@ export default function MiniDashboardPreview() {
           background: 'var(--bg-3)', borderRadius: 6, padding: '5px 14px',
           fontSize: 11, color: 'var(--text-muted)', fontFamily: 'monospace'
         }}>
-          app.clairqube.io/websites/demo
+          app.clariqube.io/websites/demo
         </div>
       </div>
 

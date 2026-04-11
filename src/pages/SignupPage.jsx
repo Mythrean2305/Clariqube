@@ -16,7 +16,7 @@ export default function SignupPage() {
     <div className="auth-layout">
       <div className="auth-card animate-fade-up">
         <div className="auth-logo">
-          Clair<span>qube</span>
+          Clari<span>qube</span>
         </div>
 
         <h1 style={{ fontSize: 24, fontWeight: 800, textAlign: 'center', marginBottom: 6 }}>

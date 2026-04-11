@@ -182,8 +182,15 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-secondary);
   transition: var(--transition);
   font-weight: 500;
+  padding: 6px 16px;
+  border-radius: 99px;
+  border: 1px solid transparent;
 }
-.navbar-links a:hover { color: var(--text-primary); }
+.navbar-links a:hover {
+  color: var(--text-primary);
+  border-color: var(--border);
+  background: var(--bg-card);
+}
 
 .navbar-actions { display: flex; align-items: center; gap: 12px; }
 

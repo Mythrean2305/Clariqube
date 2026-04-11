@@ -13,7 +13,7 @@ export default function OnboardingPage() {
   const navigate = useNavigate();
 
   const fakeId = 'website_' + Math.random().toString(36).slice(2, 10);
-  const scriptSnippet = `<script defer src="https://cdn.clairqube.io/script.js"\n  data-website-id="${fakeId}"></script>`;
+  const scriptSnippet = `<script defer src="https://cdn.clariqube.io/script.js"\n  data-website-id="${fakeId}"></script>`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(scriptSnippet);
@@ -31,7 +31,7 @@ export default function OnboardingPage() {
       <div className="onboarding-card animate-fade-up">
         {/* Logo */}
         <div style={{ fontSize: 20, fontWeight: 900, letterSpacing: '-0.04em', marginBottom: 36 }}>
-          Clair<span style={{ color: 'var(--accent)' }}>qube</span>
+          Clari<span style={{ color: 'var(--accent)' }}>qube</span>
         </div>
 
         {/* Step indicator */}

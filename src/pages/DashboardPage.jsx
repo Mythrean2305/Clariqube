@@ -43,7 +43,7 @@ export default function DashboardPage() {
       {/* Sidebar */}
       <aside className="sidebar">
         <div className="sidebar-logo">
-          Clair<span>qube</span>
+          Clari<span>qube</span>
         </div>
 
         {/* Website selector */}

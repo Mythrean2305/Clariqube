@@ -18,8 +18,7 @@ export default function Navbar() {
   return (
     <nav className="navbar" style={{ background: scrolled ? 'rgba(8,8,10,0.92)' : 'rgba(8,8,10,0.4)' }}>
       <Link to="/" className="navbar-brand">
-        Clair<span>qube</span>
-        {/* ³ */}
+        Clari<span>qube</span>
       </Link>
 
       {isLanding && (
